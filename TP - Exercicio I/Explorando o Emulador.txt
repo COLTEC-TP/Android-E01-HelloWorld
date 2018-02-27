@@ -1,0 +1,7 @@
+Para executar alguns aplicativos no Android Emulador, como valor da bateria, GPS, simular ligações, calendário entre outras deve-se: 
+
+-> Acessar a aba "rum" no Android Studio e clicar em "ok" casa algum dispositivo Android já tenha sido configurado.  
+
+-> Caso tenha entrado pela primeira vez, basta clicar em "Creat New Virtual Device" e seguir com o procedimento padrão de configuração do Emulador. 
+  
+Infelizmente não pude continuar com o procedimento uma vez que uma série de erros me impediu de abrir o Emulador. 
