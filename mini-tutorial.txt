@@ -1,0 +1,2 @@
+Para usar essas funções especiais, devemos usar o botão com ícone de três pontos ( ... ) que fica na parte inferior da barra de ferramentas que fica ao lado do celular virtual.
+Ao apertar esse botao, se irá se abrir uma janela com um painel à esquerda com várias opções de sensores virtuais do emulador (sensor de nível da bateria, sensor de gps, etc.) e ao apertar em um deles é mostrado opções para alterar o estado dos sensores virtuais.
