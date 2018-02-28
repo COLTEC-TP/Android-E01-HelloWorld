@@ -21,16 +21,18 @@ public class HelloActivity extends Activity {
         final EditText text = findViewById(R.id.text);
         Button btnLogin = findViewById(R.id.btn_login);
 
-        if (!text.equals("")) {
+
             btnLogin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(HelloActivity.this, text.getText(), Toast.LENGTH_SHORT).show();
-                }
+                    if (text.getText().length()>0) {
+                        Toast.makeText(HelloActivity.this, text.getText(), Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+                        Log.i(String.valueOf(text), "onCreate: Error");
+                    }
+
+            }
             });
-        }
-        else{
-            Log.i(String.valueOf(text), "onCreate: Error");
-        }
     }
 }
