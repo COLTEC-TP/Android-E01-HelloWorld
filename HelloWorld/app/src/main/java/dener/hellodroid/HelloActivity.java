@@ -2,6 +2,7 @@ package dener.hellodroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,11 +20,17 @@ public class HelloActivity extends AppCompatActivity {
 
         Button botao = findViewById(R.id.enviar);
         final EditText msg = findViewById(R.id.mensagem);
+        final String imprimir = msg.getText().toString();
+        final String TAG = "HelloDroid";
 
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(HelloActivity.this, "Mensagem enviada: " + msg.getText(), Toast.LENGTH_SHORT).show();
+                if(imprimir.equals("")) {
+                    Log.e(TAG, "Campo Vazio");
+                    return;
+                }
+                Toast.makeText(HelloActivity.this, imprimir, Toast.LENGTH_SHORT).show();
             }
         });
 
