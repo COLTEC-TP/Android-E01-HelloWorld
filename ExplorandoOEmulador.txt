@@ -1,0 +1,4 @@
+Para fazer essas funções, há uma aba a direita do emulador. Nesta aba existe um campo "..." e nele podemos fazer as alterações desejadas, como simular localizações, alterar o nível de bateria etc.
+
+Acessar as funcionalidades são necessárias no emulador para, durante o desenvolvmento, o desenvoledor ter noção de como o app funcionaria na "vida real". 
+No caso do GPS, por exemplo, seria muito mais difícil desenvolver usando um celular físico pois seria necessário ir a várias localizaçoes diferentes para testar o app. A localização simulada pelo emulador ajudaria neste aspecto.
