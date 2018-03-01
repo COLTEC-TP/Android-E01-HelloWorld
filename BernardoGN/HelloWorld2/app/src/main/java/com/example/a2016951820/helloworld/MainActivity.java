@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(texto.getText().toString().equals("")){
-                    Log.i(TAG, "Campo de texto em branco!");
+                    Log.e(TAG, "Campo de texto em branco!");
                 }else {
 
                     Toast.makeText(MainActivity.this,
