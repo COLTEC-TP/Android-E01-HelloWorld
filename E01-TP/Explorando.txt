@@ -1,0 +1,5 @@
+Quando você executa o seu aplicativo no Android Studio,o emulador abre uma nova janela simulando um celular do modele que já foi pre-definido.Ao lado do celular virtual existe uma barra a qual possui todas essas opções como girar a tela,modificar a localização,bateria,microfone entre outros.
+
+Funcionalidades como possuir acesso ao GPS,Camera,bateria e outros é importante para que o programador possa testar seu aplicativo no mesmo aparelho mas com N modificação no próprio sistema,assim podendo debugar e realizando otimizações no app.
+
+Essas modificações podem facilitar quando o aplicativo utiliza algum tipo de API,no caso do GPS poderias ter a API do Google Maps.
