@@ -1,0 +1,13 @@
+﻿Para acessar clique em “more”, assim o desenvolvedor poderá alterar os valores de longitude, latitude e altitude. Nas situações onde é necessário a localização do usuário, ou se o desenvolvedor quiser testar certa aplicação onde uma localização específica é necessária.
+
+Funções inportantes
+- Localização
+- Sinal do celular
+- Bateria
+- Ligação
+- Microfone
+- Digital do dedo
+- Sonsores virtuais
+- Relatório de bug
+
+Todas essas funções podem ser econtradas e alteradas em “more”, onde ficam no canto esquerdo.
