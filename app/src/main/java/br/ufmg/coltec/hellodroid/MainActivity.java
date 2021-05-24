@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(name.getText().toString().length() == 0){
+                    Log.e(MainActivity.class.getName(), "Campo vazio");
+                }
                 Toast t = Toast.makeText(MainActivity.this, "Olá, " + name.getText().toString() + "!", Toast.LENGTH_SHORT);
                 t.setGravity(Gravity.TOP, 0, 200);
                 t.show();
