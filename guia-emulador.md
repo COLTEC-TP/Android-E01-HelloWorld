@@ -1,4 +1,4 @@
-#Como acessar algumas funções do emulador
+# Como acessar algumas funções do emulador
 O emulador do Android Studio possui opções que permitem acessar determinadas funções do aparelho, 
 como alterar valor da bateria, definir uma localização de GPS arbitrária, simular ligações, 
 entre outras.
@@ -14,11 +14,11 @@ o exemplo das opções da bateria:
 
 As alterações são feitas em tempo real (ou quase), não é necessário salvar.
 
-##Bateria
+## Bateria
 Na aba Battery é possível alterar o nível de carga e se o telefone está carregando ou não.
 
-##GPS
+## GPS
 Na aba Location é possível definir a localização do aparelho e salvar pontos no mapa.
 
-##Ligações
+## Ligações
 Na aba Phone é possível simular ligações e enviar SMS para o aparelho.
