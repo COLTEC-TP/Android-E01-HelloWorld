@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         b = this.findViewById(R.id.button);
         name = this.findViewById(R.id.editText);
+
+        Log.d(MainActivity.class.getName(), "Aplicativo inicializado");
 
         b.setOnClickListener(new View.OnClickListener() {
             @Override
