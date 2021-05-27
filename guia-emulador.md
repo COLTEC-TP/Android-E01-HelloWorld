@@ -21,4 +21,8 @@ Na aba Battery é possível alterar o nível de carga e se o telefone está carr
 Na aba Location é possível definir a localização do aparelho e salvar pontos no mapa.
 
 ## Ligações
+<<<<<<< Updated upstream
 Na aba Phone é possível simular ligações e enviar SMS para o aparelho.
+=======
+Na aba Phone é possível simular ligações e enviar SMS para o aparelho.
+>>>>>>> Stashed changes
