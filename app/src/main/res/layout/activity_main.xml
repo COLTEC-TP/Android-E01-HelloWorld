@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1e33">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="@string/digite_nome"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/btn_send_name"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_send_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/enviar"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
