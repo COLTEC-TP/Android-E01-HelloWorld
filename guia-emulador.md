@@ -5,7 +5,7 @@ Aluno: Marcelo Simim
 # Como acessar
 
 Para ter acesso às configuirações de gps, bateria e ligações basta clicar no botão assinalado em vermelhor na imagem abaixo. Irá abrir uma janela de configurações, cujo nome é Extended Controls.
-![Extended Controls](guia-imgs/recursos.jpeg)
+![Extended Controls](guia-imgs/acesso-recursos.jpeg)
 
 # GPS
 
