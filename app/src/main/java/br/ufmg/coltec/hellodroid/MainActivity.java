@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,13 +30,19 @@ public class MainActivity extends AppCompatActivity {
         btnSend = findViewById(R.id.btn_send);
 
         btnSendOnClick();
+
+        Log.d("initialized", "App inicializado");
     }
 
     private void btnSendOnClick(){
         btnSend.setOnClickListener(view -> {
-            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
-            Toast toast = Toast.makeText(context, input.getText(), Toast.LENGTH_SHORT);
-            toast.show();
+            if(input.getText().toString().equals("")){
+                Log.e("empty", "Campo vazio");
+            }else{
+                inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+                Toast toast = Toast.makeText(context, input.getText().toString(), Toast.LENGTH_SHORT);
+                toast.show();
+            }
         });
     }
 }
