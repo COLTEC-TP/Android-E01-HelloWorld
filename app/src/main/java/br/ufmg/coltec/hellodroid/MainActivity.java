@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView txt;
     private EditText input;
     private Button btnSend;
+    private Toast toast;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("empty", "Campo vazio");
             }else{
                 inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
-                Toast toast = Toast.makeText(context, input.getText().toString(), Toast.LENGTH_SHORT);
+                toast = Toast.makeText(context, input.getText().toString(), Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
