@@ -1,0 +1,3 @@
+O acesso às funções de bateria, GPS e ligações se dá por meio da janela 'Extended Controls' que está localizada na opção 'more' do painel à direita do emulador.
+
+A simulação dos níveis de bateria permite verificar o comportamento do app em diveros níveis de carga. Já os ajustes de GPS nos permite simular a localização geográfica do aparelho assim como o percurso de rotas. Por fim, o acesso as funções de ligação nos possibilita simular o recebimento de chamadas e mensagens de texto.
