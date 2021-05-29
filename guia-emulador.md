@@ -1,7 +1,7 @@
-A IDE Android Studio permite o acesso a funções do aparelho como bateria, GPS, ligações, essas funções estão disponíveis em locais de acordo com a função desejada:
+ï»¿A IDE Android Studio permite o acesso a funÃ§Ãµes do aparelho como bateria, GPS, ligaÃ§Ãµes, essas funÃ§Ãµes estÃ£o disponÃ­veis em locais de acordo com a funÃ§Ã£o desejada:
 
 Bateria: na aba battery.
 GPS: na aba location.
-Ligações: na aba phone.
+LigaÃ§Ãµes: na aba phone.
 
-Essas funções são importantes para simular um aparelho real e poder testar as funcionalidades e confibilidade do seu app diante as funções do android no aparelho.
+Essas funÃ§Ãµes sÃ£o importantes para simular um aparelho real e poder testar as funcionalidades e confibilidade do seu app diante as funÃ§Ãµes do android no aparelho.
